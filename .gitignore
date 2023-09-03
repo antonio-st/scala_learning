@@ -1,0 +1,15 @@
+.idea/*
+.bsp/*
+target/*
+project/*
+*.iml
+metastore_db/*
+.metals/*
+.vscode/*
+hs_err*
+replay_pid*
+*.log
+spark-warehouse/*
+
+!project/build.properties
+!project/plugins.sbt
