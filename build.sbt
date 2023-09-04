@@ -1,8 +1,3 @@
-ThisBuild / version := "0.1.0-SNAPSHOT"
-
+ThisBuild / version := "1.1.0"
+ThisBuild / name := "scala_stepik"
 ThisBuild / scalaVersion := "2.13.11"
-
-lazy val root = (project in file("."))
-  .settings(
-    name := "scala_stepik"
-  )
