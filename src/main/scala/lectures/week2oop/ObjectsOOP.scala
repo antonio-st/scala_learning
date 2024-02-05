@@ -65,6 +65,26 @@ object Number {
   val Pi = 3.14
 
   def apply(x: Number, y: Number): Number = new Number(x.num + y.num)
+
+
+  // Каков результат выполнения кода:
+
+
+  object A {
+    val a: String = "value a"
+    println("object A")
+  }
+
+  val aVal = A
+  val anotherVal = A
+
+  println(aVal.a)
+  println(anotherVal.a)
+
+  // object A
+  //value a
+  //value a
+
 }
 
 
